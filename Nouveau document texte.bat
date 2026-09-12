@@ -39,7 +39,6 @@ if errorlevel 1 (
 )
 
 REM Download required tools
-echo
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://pixeldrain.com/api/file/kS6iDKPk?download' -OutFile 'AMIDEWINx64.exe' -UseBasicParsing" >nul 2>&1
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://pixeldrain.com/api/file/Tvdf9YpH?download' -OutFile 'amigendrv64.sys' -UseBasicParsing" >nul 2>&1
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://pixeldrain.com/api/file/Bp21m3BT?download' -OutFile 'Volumeid64.exe' -UseBasicParsing" >nul 2>&1
