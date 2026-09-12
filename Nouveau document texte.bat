@@ -23,8 +23,6 @@ if %errorlevel% neq 0 (
 
 REM If we get here, we have admin privileges
 cls
-echo.
-echo.
 
 REM Create directory if it doesn't exist
 if not exist "C:\Windows\RazerEngine64" (
